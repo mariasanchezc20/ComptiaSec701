@@ -1,1 +1,104 @@
+# Security Program Management and Oversight
 
+Policies
+
+- Acceptable Use Policy (AUP): defines permissible and accepted use of resources
+- Information Security Policy: Policies and guidelines to protect organizational information
+- Business Continuity: Policies & procedures to ensure continuity after disruption 
+- Disaster recovery: Policies/guidelines about system recovery after disasters
+- Incident Response: Procedures for handling security breaches
+- Software Development LifeCycle(SDLC): Proper lifecycle of a software application
+- Change Management: Policies about modifications to systems
+
+-------
+Risk Management
+
+- Ad Hoc: When is needed to do an assessment to specific events or changes
+- Recurring: Regular scheduled assessments at predefined intervals
+- One-time: single assessment performed within a specific project or context
+- Continuous: Ongoing monitoring and assessment of risk in a way to maintain awareness of evolving threats
+------
+Risk Analysis
+
+- Qualitative: categorized by severity, likelihood, and impact
+- Quantitative: assessments of risks using numerical data & mathematical models
+- Singles Loss Expectancy (SLE): monetary valued associated with one risk event (asset value * exposure factor)
+- Annualized Loss Expectancy (ALE): Monetary loss from a risk over one-year period
+- Annualized Rate of Occurrence (ARO): frequency of a risk happening over a one-year period
+- Probability/likelihood:  likelihood of a risk happening based on historical data, expert judgement, or statistical analysis.
+- Exposure factor: % of loss expected if a risk occurs
+- Impact: consequence of a risk on an organization's objectives, assets or operations.
+------
+Risk Management strategies
+
+Accept: acknowledge the existence of a risk
+	- Exemption: Certain risks are exempt based on low likelihood/impact
+	- Exception: accepted risks based on criteria/business needs
+
+-----
+Business Impact Analysis
+
+Recovery Time Objective (RTO): max accepted downtime of restore after an incident
+Recovery Point Objective (RPO): max accepted data loss during recovery process
+Mean Time to Repair (MTTR): avg time required to repair after a failure
+Mean Time Between Failures (MTBF): avg time between system failures
+
+---------
+
+Which of the following threat actors is the most likely to be hired by a foreign government to attack critical systems located in other countries?
+
+- Organized Crime
+
+----
+Which of the following is used to add extra complexity before using a one-way data transformation algorithm?
+
+- salting
+---
+An employee clicked a link in an email from a payment website that asked the employee to update contact information. The employee entered the log-in information but received a “page not found” error message. Which of the following types of social engineering attacks occurred?
+
+- Phishing
+---
+An enterprise is trying to limit outbound DNS traffic originating from its internal network. Outbound DNS requests will only be allowed from one device with the IP address 10.50.10.25. Which of the following firewall ACLs will accomplish this goal?
+
+- Access list outbound permit 10.50.10.25/32 0.0.0.0/0 port 53 
+Access list outbound deny 0.0.0.0/0 0.0.0.0/0 port 53
+---
+A data administrator is configuring authentication for a SaaS application and would like to reduce the number of credentials employees need to maintain. The company prefers to use domain credentials to access new SaaS applications. Which of the following methods would allow this functionality?
+
+- SSO
+---
+A company prevented direct access from the database administrators’ workstations to the network segment that contains database servers. Which of the following should a database administrator use to access the database servers?
+
+- Jump Server
+---
+An organization’s internet-facing website was compromised when an attacker exploited a buffer overflow. Which of the following should the organization deploy to best protect against similar attacks in the future?
+
+- WAF
+----
+An administrator notices that several users are logging in from suspicious IP addresses. After speaking with the users, the administrator determines that the employees were not logging in from those IP addresses and resets the affected users’ passwords. Which of the following should the administrator implement to prevent this type of attack from succeeding in the future?
+
+- Multifactor authentication 
+---
+An employee receives a text message that appears to have been sent by the payroll department and is asking for credential verification. Which of the following social engineering techniques are being attempted? (Choose two.)
+
+- Smishing 
+- Impersonation 
+---
+Several employees received a fraudulent text message from someone claiming to be the Chief Executive Officer (CEO). The message stated:  
+“I’m in an airport right now with no access to email. I need you to buy gift cards for employee recognition awards. Please send the gift cards to following email address.”  
+Which of the following are the best responses to this situation? (Choose two).
+
+- Add a smishing exercise to the annual company training.
+- Issue a general email warning to the company.
+---
+A company is required to use certified hardware when building networks. Which of the following best addresses the risks associated with procuring counterfeit hardware?
+
+- A thorough analysis of the supply chain
+----
+Which of the following provides the details about the terms of a test with a third-party penetration tester?
+
+- Rules of engagement
+---
+A penetration tester begins an engagement by performing port and service scans against the client environment according to the rules of engagement. Which of the following reconnaissance types is the tester performing?
+
+- 
