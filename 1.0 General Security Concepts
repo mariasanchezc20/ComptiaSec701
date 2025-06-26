@@ -1,1 +1,69 @@
 
+# General Security Concepts
+
+Preventive: Reduces the probability or impact of a threat, like firewalls
+Detective: Identifies attacks as they happen, like surveillance
+Corrective: Controls how the system responds to an ongoing attack, like system patches
+Recovery: Recovers system from an attack, like backups
+Deterrent: Keeps attackers away from the system, like least privilege
+
+-----
+
+**Definition**: Zero Trust is a security framework that assumes no user or device is trusted by default, whether inside or outside the network perimeter. It requires continuous verification of user and device identity, strict access controls, and continuous monitoring of traffic and behavior.
+
+
+- **Control Plane**: Manages the decision-making process in Zero Trust architecture, including user and device authentication, policy enforcement, and monitoring. Key components involve IAM and policy management tools.
+- **Data Plane**: Responsible for the actual data transmission and enforcement of security policies. It ensures secure communication and access control as dictated by the control plane.
+
+
+------
+Backout plan also known as a rollback plan
+
+-----
+Standard Operation Procedure (SOP): a set of step-by-step instructions compiled by an organization to help workers carry out routine operations.
+
+-------
+Public Key Infrastructure (PKI)
+
+- **Definition**: PKI is a framework of policies, technologies, and procedures used to create, manage, distribute, use, store, and revoke digital certificates and public keys. It enables secure communication, data encryption, and digital signatures, which ensure the confidentiality, integrity, authenticity, and non-repudiation of electronic communications and transactions.
+- **Components**: The key components of PKI include:
+    - **Certificate Authority (CA)**: The trusted entity responsible for issuing, revoking, and managing digital certificates. CAs verify the identity of entities (users, devices, or services) before issuing certificates.
+    - **Registration Authority (RA)**: Acts as a mediator between the end user and the CA. It helps with identity verification and registration, but it does not issue certificates itself.
+    - **Digital Certificates**: Electronic credentials that associate a public key with the identity of the certificate holder. Certificates are used to verify the legitimacy of the public key.
+    - **Public and Private Keys**: Cryptographic keys used in asymmetric encryption. The **public key** is distributed openly and is used for encrypting data or verifying digital signatures. The **private key** is kept secret and is used for decrypting data or creating digital signatures.
+    - **Certificate Revocation List (CRL) and Online Certificate Status Protocol (OCSP)**: Mechanisms to check whether a certificate is still valid or has been revoked.
+
+Levels of encryption: 
+- Full-stick
+- partition
+- file
+- volume
+- database
+- record
+
+Secure Enclave: 
+A secure enclave is a hardware-based isolated environment designed to protect sensitive data and operations within a computer or mobile device.
+
+-----
+
+Tokenization is a data protection technique that replaces sensitive data with non-sensitive placeholders called tokens.
+
+Data masking is a process used to hide sensitive data by replacing it with fictitious but realistic data.
+
+----------
+Blockchain: A blockchain is a distributed ledger technology (DLT) that allows data to be stored across a network of computers in a secure, tamper-proof, and transparent way. It consists of a series of blocks, each containing a list of transactions. These blocks are cryptographically linked together in a chain, forming a continuous, unalterable record.
+
+-------
+certificate Signing Request
+
+○ Process for requesting certificates.
+○ Subject generates a key pair and submits a CSR to the CA.
+○ CA reviews and validates the information before issuing the certificate.
+○ Private key is not part of the CSR and must be securely stored by the subject.
+
+------
+A wildcard is a certificate that can help secure multiple subdomains of a domain. 
+
+----
+Root of trust: trusted entity. 
+
