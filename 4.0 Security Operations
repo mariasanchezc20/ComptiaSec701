@@ -1,1 +1,79 @@
+# Security Operations
+
+Wireless security settings: 
+- WPA3
+- AAA/RADIUS
+- Cryptographic and Authentication protocols
+
+------
+Information sharing organization: collaborate with other org about threat intelligence found
+
+-----
+Security Content Automation Protocol (SCAP): Protocol for automating vulnerability management, security measurements, and policy compliance evaluation. 
+
+-----
+
+Benchmarks: Used to measure security configuration of systems and applications. 
+
+-----
+SNMP traps: monitor network devices
+
+NetFlow: monitor network traffic patterns
+
+-------
+Rules: Based on predefined criteria
+Access Lists: Source/destination IP, ports and protocols
+
+Screened Subnet also known as DMZ
+
+
+-------
+Email Security
+
+DMARC : Protocol for email authentication and reporting
+
+DKIM: Digital signatures in email headers for authenticity
+
+SPF: authenticate/verifies domains for authenticity
+
+------
+Federation: SSO between multiple domains
+
+------
+Attestation: verify the accuracy and validity of user permissions and access rights through regular review and audits
+
+-------
+Password vaulting: Safely stores and manages privileged user account passwords
+
+Ephemeral Credentials: dynamically generates temporary credentials to users for specific tasks
+
+---------
+Guard Rails: automated security controls and policies to ensure compliance with security standards and prevent unauthorized actions
+
+
+------
+ Incident response activities
+1. preparation
+2. detection
+3. analysis
+4. containment
+5. eradication
+6. recovery
+7. lessons learned
+
+-----
+*Always ensure integrity and authenticity of the evidence*
+
+Legal hold: implementation of measures to preserve potential evidence
+
+chain of custody: documenting the chronological history from evidence. When collected -> presented in court
+
+Acquisition: Gathering and collecting digital evidence from various sources. 
+
+Reporting: creation of comprehensive reports from digital forensic investigations
+
+Preservation: Ensuring integrity and authenticity of evidence
+
+E-discovery: identify, collect, and prepare electronically stored Information (ESI) for legal proceedings/investigations
+
 
