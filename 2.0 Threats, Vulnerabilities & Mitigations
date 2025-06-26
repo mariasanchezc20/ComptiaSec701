@@ -1,1 +1,26 @@
+# Threats, vulnerabilities and mitigations
+
+Unskilled Attacker / Script kiddies
+
+Level of sophistication/capability - Tactics, techniques and procedures: Specific methods and patterns of activities or behaviors associated with a particular threat actor or group of threat actors.
+
+----
+Threat Vector(Attack vector): It represents the method or route used by attackers to exploit vulnerabilities in a system or network to compromise security. *How*
+
+Attack surface: An attack surface is the totality of all possible entry points (vectors) through which an unauthorized user could attempt to enter or extract data from an environment. It represents all the vulnerabilities and points of exposure in a system or network that can be exploited by attackers. *Where*
+
+----
+Client-based Software (Agent-based): Relies on the installation of an agent (a small software component) on each endpoint device (such as a computer, server, or mobile device) to perform specific functions. These agents communicate with a central management system to receive instructions and report data.
+
+Agentless Software: Does not require any software to be installed on the endpoint devices. Instead, it relies on existing network protocols and services to perform management and monitoring tasks remotely
+
+-----
+Supply Chain
+
+Managed Service Providers (MSPs): offer a range of ongoing services, including IT management, monitoring, and security, often under long-term contracts
+
+Vendors: companies that sell products or solutions, typically providing support for those products. They focus on product sales and innovation.
+
+-----
+
 
