@@ -1,1 +1,47 @@
+# Security Program Management and Oversight
+
+Policies
+
+- Acceptable Use Policy (AUP): defines permissible and accepted use of resources
+- Information Security Policy: Policies and guidelines to protect organizational information
+- Business Continuity: Policies & procedures to ensure continuity after disruption 
+- Disaster recovery: Policies/guidelines about system recovery after disasters
+- Incident Response: Procedures for handling security breaches
+- Software Development LifeCycle(SDLC): Proper lifecycle of a software application
+- Change Management: Policies about modifications to systems
+
+-------
+Risk Management
+
+- Ad Hoc: When is needed to do an assessment to specific events or changes
+- Recurring: Regular scheduled assessments at predefined intervals
+- One-time: single assessment performed within a specific project or context
+- Continuous: Ongoing monitoring and assessment of risk in a way to maintain awareness of evolving threats
+------
+Risk Analysis
+
+- Qualitative: categorized by severity, likelihood, and impact
+- Quantitative: assessments of risks using numerical data & mathematical models
+- Singles Loss Expectancy (SLE): monetary valued associated with one risk event (asset value * exposure factor)
+- Annualized Loss Expectancy (ALE): Monetary loss from a risk over one-year period
+- Annualized Rate of Occurrence (ARO): frequency of a risk happening over a one-year period
+- Probability/likelihood:  likelihood of a risk happening based on historical data, expert judgement, or statistical analysis.
+- Exposure factor: % of loss expected if a risk occurs
+- Impact: consequence of a risk on an organization's objectives, assets or operations.
+------
+Risk Management strategies
+
+Accept: acknowledge the existence of a risk
+	- Exemption: Certain risks are exempt based on low likelihood/impact
+	- Exception: accepted risks based on criteria/business needs
+
+-----
+Business Impact Analysis
+
+Recovery Time Objective (RTO): max accepted downtime of restore after an incident
+Recovery Point Objective (RPO): max accepted data loss during recovery process
+Mean Time to Repair (MTTR): avg time required to repair after a failure
+Mean Time Between Failures (MTBF): avg time between system failures
+
+---------
 
