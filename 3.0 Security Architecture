@@ -1,1 +1,26 @@
+# Security Architecture 
 
+
+Responsibility matrix: who is in charge of security, compliance, and management of resources. 
+
+-----
+Software-defined networking: SDN is a network architecture approach that enables the programmable management, control, and orchestration of network resources by decoupling the network's control plane (decision-making) from the data plane (data forwarding).
+
+-----
+**Embedded Systems**: Specialized computing systems designed to perform dedicated functions within larger systems, optimized for specific tasks and operating with limited resources.
+
+embedded system is a specialized computing system that is designed to perform a dedicated function or set of functions within a larger system. These systems are typically optimized for specific tasks and are integrated into hardware devices such as automobiles, medical devices, industrial machines, consumer electronics, and more.
+
+**Real-Time Operating Systems (RTOS)**: Operating systems designed for real-time applications, providing deterministic timing and predictable behavior essential for time-sensitive tasks.
+
+RTOS is an operating system designed to manage hardware resources and execute software processes with precise timing and predictable behavior. RTOSs are specifically built to support real-time applications where timing is crucial, such as in embedded systems that require immediate or predictable responses to external events.
+
+-----
+
+Port security 802.1X: IEEE protocol standard network-based access control for authentication and authorization of devices before allowing them on a network. 
+
+----
+Unified Threat Management (UTM): all in one in security controls 
+
+------
+failover: test automatic or manual transfer of ops from a primary to a secondary server to ensure continuity. 
