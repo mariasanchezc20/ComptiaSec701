@@ -1,0 +1,105 @@
+
+
+Statement of work (SOW)
+
+- Document that outlines the details of the project which includes the scope, cost, requirements, deliverables and time. 
+
+Master Service Agreement (MSA)
+
+- A contract that defines terms and conditions are established under which services will be provided
+
+Service Level Agreement (SLA)
+
+- A contract that defines the level of service expected from the service provider
+
+Business Partnership Agreement (BPA)
+
+- An agreement that defines the relationship & responsibilities between business partners
+
+----
+Change control is the process that IT department uses to identify, document, and authorize changes made to an IT environment. 
+
+----
+Sanitization involves securely erasing data from hard drives to ensure it can't be recovered or accessed by unauthorized individuals. 
+
+-----
+- Confidential - Very sensitive, must be approved to view 
+-  Public / Unclassified - No restrictions on viewing the data 
+-  Private / Classified / Restricted – Restricted access, may require an NDA 
+-  Critical - Data should always be available
+- Sensitive - Intellectual property, PII, PHI
+
+Trade secret is the correct classification for data that is crucial for maintaining a competitive advantage and is deliberately kept secret within a company.
+
+Intellectual Property: legally registered works that may be publicly disclosed through patents or copyrights.
+
+Regulated data pertains to information subject to specific legal or regulatory requirements
+
+private data refers to personal or sensitive information about individuals
+
+---
+Automation involves using tools and scripts to regularly check and report on the security settings of a server. 
+
+----
+A serverless framework is a cloud-based application-hosting solution that allows developers to build and run application without managing the underlying infrastructure. 
+
+---
+Group-level permissions are efficient for managing access for a team, as any member of the group inherits the permissions, streamlining the management process.
+
+User-level permissions would be inefficient, requiring individual setup for each team member.
+
+Role-based permissions are not specific enough for shared resource access.
+
+Resource-based permissions are more suitable for managing access to the resource itself rather than the team’s access level.
+
+-----
+In a large healthcare organization, the final approval for implementing a significant security technology would typically come from the board. 
+Boards, comprising C-level executives and other senior leaders, are responsible for setting the strategic direction and approving major security initiatives and expenditures. They ensure that such initiatives align with the broader business objectives and meet the risk management criteria of the organization. 
+
+While committees provide detailed oversight and recommendations, they do not usually have the final approval authority like boards do. 
+
+Government entities set and enforce standards but are not involved in internal decision-making of private organizations. 
+
+Local management teams may manage operational aspects but do not have the authority for significant organization-wide decisions.
+
+-----
+An IP proxy secures the network by keeping client machines anonymous, utilizing NAT.
+
+A caching proxy serves client requests without contacting remote servers. 
+
+FTP and SMTP proxies are specific to file transfer and email protocols, respectively.
+
+-----
+A tabletop exercise would allow the organization to walk through its incident response plan in a controlled, discussion-based setting. 
+
+Full-scale drills and simulated cyberattacks are more intrusive. They can disrupt daily operations. 
+
+Live-action role-playing is not typically used for testing incident response in a corporate environment.
+
+----
+Firewall logs are essential for monitoring network traffic, including unauthorized access attempts like suspicious SSH connections.
+Firewall logs can reveal IP addresses and times of such attempts.
+
+Syslog provides a broader overview and might not specify SSH attempts. 
+
+Application logs are more focused on internal application performance. 
+
+IPS/IDS logs detect intrusions but might not detail specific SSH attempts as clearly as firewall logs.
+
+
+-----
+An expansionary risk appetite involves accepting higher levels of risk to capitalize on growth opportunities, typical of startups that prioritize speed and innovation. 
+
+Conservative risk appetite indicates a preference for lower risk and stability. 
+
+Neutral risk appetite suggests a balanced approach to risk-taking. 
+
+The term risk-averse generally refers to a conservative approach and doesn’t align with the startup’s risk-taking strategy in the scenario.
+
+
+-----
+Stateful packet inspection (SPI) is appropriate for protecting against IP spoofing and other complex network attacks. 
+
+Unlike stateless packet filtering, which inspects each packet in isolation, SPI keeps track of ongoing connections, allowing it to distinguish between legitimate and malicious packets more effectively.
+
+Circuit-level gateways and application-level gateways (ALGs) are also important, but they serve different purposes and do not offer the same level of protection against IP spoofing.
